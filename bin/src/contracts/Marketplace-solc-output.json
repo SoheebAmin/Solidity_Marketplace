@@ -1,0 +1,201 @@
+{
+    "contracts": {
+        "c:/MyCode/Solidity_Marketplace/src/contracts/Marketplace.sol": {
+            "Marketplace": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "payable": false,
+                        "stateMutability": "nonpayable",
+                        "type": "constructor"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b506040805180820190915260128082527f446170702055204d61726b6574706c616365000000000000000000000000000060209092019182526052916000916057565b5060e8565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10609657805160ff191683800117855560c0565b8280016001018555821560c0579182015b8281111560c057825182559160200191906001019060a7565b5060ca92915060ce565b5090565b60e591905b8082111560ca576000815560010160d3565b90565b6035806100f66000396000f3fe6080604052600080fdfea165627a7a723058205fc9bfaa44d14d98b51ab2283d73ef0fa92ef208f425a06735818eecdffc70240029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 DUP1 MLOAD DUP1 DUP3 ADD SWAP1 SWAP2 MSTORE PUSH1 0x12 DUP1 DUP3 MSTORE PUSH32 0x446170702055204D61726B6574706C6163650000000000000000000000000000 PUSH1 0x20 SWAP1 SWAP3 ADD SWAP2 DUP3 MSTORE PUSH1 0x52 SWAP2 PUSH1 0x0 SWAP2 PUSH1 0x57 JUMP JUMPDEST POP PUSH1 0xE8 JUMP JUMPDEST DUP3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x1F ADD PUSH1 0x20 SWAP1 DIV DUP2 ADD SWAP3 DUP3 PUSH1 0x1F LT PUSH1 0x96 JUMPI DUP1 MLOAD PUSH1 0xFF NOT AND DUP4 DUP1 ADD OR DUP6 SSTORE PUSH1 0xC0 JUMP JUMPDEST DUP3 DUP1 ADD PUSH1 0x1 ADD DUP6 SSTORE DUP3 ISZERO PUSH1 0xC0 JUMPI SWAP2 DUP3 ADD JUMPDEST DUP3 DUP2 GT ISZERO PUSH1 0xC0 JUMPI DUP3 MLOAD DUP3 SSTORE SWAP2 PUSH1 0x20 ADD SWAP2 SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0xA7 JUMP JUMPDEST POP PUSH1 0xCA SWAP3 SWAP2 POP PUSH1 0xCE JUMP JUMPDEST POP SWAP1 JUMP JUMPDEST PUSH1 0xE5 SWAP2 SWAP1 JUMPDEST DUP1 DUP3 GT ISZERO PUSH1 0xCA JUMPI PUSH1 0x0 DUP2 SSTORE PUSH1 0x1 ADD PUSH1 0xD3 JUMP JUMPDEST SWAP1 JUMP JUMPDEST PUSH1 0x35 DUP1 PUSH2 0xF6 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 0x5f 0xc9 0xbf 0xaa DIFFICULTY 0xd1 0x4d SWAP9 0xb5 BYTE 0xb2 0x28 RETURNDATASIZE PUSH20 0xEF0FA92EF208F425A06735818EECDFFC70240029 ",
+                        "sourceMap": "27:128:0:-;;;79:71;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;111:31:0;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;111:31:0;:::i;:::-;;27:128;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;27:128:0;;;-1:-1:-1;27:128:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea165627a7a723058205fc9bfaa44d14d98b51ab2283d73ef0fa92ef208f425a06735818eecdffc70240029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 0x5f 0xc9 0xbf 0xaa DIFFICULTY 0xd1 0x4d SWAP9 0xb5 BYTE 0xb2 0x28 RETURNDATASIZE PUSH20 0xEF0FA92EF208F425A06735818EECDFFC70240029 ",
+                        "sourceMap": "27:128:0:-;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "10600",
+                            "executionCost": "infinite",
+                            "totalCost": "infinite"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/MyCode/Solidity_Marketplace/src/contracts/Marketplace.sol\":\"Marketplace\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/MyCode/Solidity_Marketplace/src/contracts/Marketplace.sol\":{\"keccak256\":\"0x2b1b90d587121c3612f20eb0bfbdc165b242d7e769fc73078862567ad80c86b0\",\"urls\":[\"bzzr://1c69c308aaf34306f1490317aab91454fb31872384de381d7179216a0770cbfe\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "c:/MyCode/Solidity_Marketplace/src/contracts/Marketplace.sol": {
+            "ast": {
+                "absolutePath": "c:/MyCode/Solidity_Marketplace/src/contracts/Marketplace.sol",
+                "exportedSymbols": {
+                    "Marketplace": [
+                        12
+                    ]
+                },
+                "id": 13,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.5",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:23:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 12,
+                        "linearizedBaseContracts": [
+                            12
+                        ],
+                        "name": "Marketplace",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 3,
+                                "name": "var_name",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 12,
+                                "src": "55:15:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "55:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "value": null,
+                                "visibility": "internal"
+                            },
+                            {
+                                "body": {
+                                    "id": 10,
+                                    "nodeType": "Block",
+                                    "src": "100:50:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "id": 8,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "argumentTypes": null,
+                                                    "id": 6,
+                                                    "name": "var_name",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 3,
+                                                    "src": "111:8:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "argumentTypes": null,
+                                                    "hexValue": "446170702055204d61726b6574706c616365",
+                                                    "id": 7,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": true,
+                                                    "kind": "string",
+                                                    "lValueRequested": false,
+                                                    "nodeType": "Literal",
+                                                    "src": "122:20:0",
+                                                    "subdenomination": null,
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_stringliteral_29fb574c13df967c8efd33f88e11bf5fc7c98272278cd046de6ff71130ce879a",
+                                                        "typeString": "literal_string \"Dapp U Marketplace\""
+                                                    },
+                                                    "value": "Dapp U Marketplace"
+                                                },
+                                                "src": "111:31:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage",
+                                                    "typeString": "string storage ref"
+                                                }
+                                            },
+                                            "id": 9,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "111:31:0"
+                                        }
+                                    ]
+                                },
+                                "documentation": null,
+                                "id": 11,
+                                "implemented": true,
+                                "kind": "constructor",
+                                "modifiers": [],
+                                "name": "",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 4,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "90:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 5,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "100:0:0"
+                                },
+                                "scope": 12,
+                                "src": "79:71:0",
+                                "stateMutability": "nonpayable",
+                                "superFunction": null,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 13,
+                        "src": "27:128:0"
+                    }
+                ],
+                "src": "0:155:0"
+            },
+            "id": 0
+        }
+    }
+}
